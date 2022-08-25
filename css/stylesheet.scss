@@ -1,11 +1,30 @@
-@use "colors";
+@use "colors" as c;
 @use "fonts";
 
-h3 {
-    font-family: bold;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-a {
-    text-decoration: none;
-    font-family: bold;
+nav {
+    background-color: c.$White;
+    -webkit-box-shadow: 0px 0px 23px 4px rgba(0,0,0,0.57); 
+    box-shadow: 0px 0px 23px 4px rgba(0,0,0,0.57);
+    padding: 2em 4em;
+
+    img {
+        width: 100px;
+        margin-right: 2em;
+    }
+
+    a {
+        text-decoration: none;
+        font-family: bold;
+        color: c.$coolGray;
+        font-size: 20px;
+        margin: 0 2em;
+    }    
+    .redA {
+        color: c.$redCrossRed;
+    }
 }

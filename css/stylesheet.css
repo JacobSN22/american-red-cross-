@@ -2,11 +2,27 @@
   font-family: bold;
   src: url(/fonts/Akzidenz-grotesk-bold.ttf);
 }
-h3 {
-  font-family: bold;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-a {
+nav {
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 23px 4px rgba(0, 0, 0, 0.57);
+  padding: 2em 4em;
+}
+nav img {
+  width: 100px;
+  margin-right: 2em;
+}
+nav a {
   text-decoration: none;
   font-family: bold;
+  color: #6D6E70;
+  font-size: 20px;
+  margin: 0 2em;
+}
+nav .redA {
+  color: #ED1B2E;
 }/*# sourceMappingURL=stylesheet.css.map */
