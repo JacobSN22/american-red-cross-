@@ -1,0 +1,18 @@
+- Logo
+3 mixins til de forskelige logoer i 1 partial.
+
+- Farver
+Alle farver i 1 partial og dele dem op i primary, secondary og neutral.
+
+
+
+
+opgave 2
+De 5 sectioner med billeder og text på kan laves med nogle mixins i partials
+der bestemmer hvorden billede skal være og parent texten til billedet.
+
+Have et mixin til buttons der bestemmer farve, størrelse og font styling i en partial.
+
+Jeg kan lave et mixin til grid eller flex, der er nemlig 2 sectioner der skal displayes 4 ved siden af hinanden.
+
+lave en mixin til en title og undertekst

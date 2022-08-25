@@ -1,0 +1,12 @@
+@font-face {
+  font-family: bold;
+  src: url(/fonts/Akzidenz-grotesk-bold.ttf);
+}
+h3 {
+  font-family: bold;
+}
+
+a {
+  text-decoration: none;
+  font-family: bold;
+}/*# sourceMappingURL=stylesheet.css.map */
