@@ -2,9 +2,17 @@
   font-family: bold;
   src: url(/fonts/Akzidenz-grotesk-bold.ttf);
 }
+@font-face {
+  font-family: light;
+  src: url(/fonts/Akzidenz-grotesk-light.ttf);
+}
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  background-color: #D7D7D8;
 }
 
 nav {
@@ -25,4 +33,102 @@ nav a {
 }
 nav .redA {
   color: #ED1B2E;
+}
+
+main {
+  max-width: 1350px;
+  margin: auto;
+  background-color: #FFFFFF;
+}
+
+.imgSectionOne section {
+  position: relative;
+}
+.imgSectionOne img {
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+.imgSectionOne div {
+  position: absolute;
+  top: 30%;
+  left: 7%;
+}
+.imgSectionOne div h2 {
+  font-size: 3vw;
+  font-family: bold;
+  color: #FFFFFF;
+}
+.imgSectionOne div h3 {
+  font-size: 2vw;
+  font-family: light;
+  color: #FFFFFF;
+}
+.imgSectionOne div button {
+  background-color: #ED1B2E;
+  font-size: 1.25em;
+  font-family: bold;
+  color: #FFFFFF;
+  border: 0px;
+  border-radius: 3px;
+  padding: 0.6em 1.4em;
+  margin: 2em 0 0 0;
+}
+
+.imgSectionTwo section {
+  position: relative;
+  margin-bottom: 2em;
+}
+.imgSectionTwo img {
+  width: 100%;
+}
+.imgSectionTwo div {
+  position: absolute;
+  max-width: 40%;
+  padding: 3em 2em;
+}
+.imgSectionTwo div h2 {
+  font-size: 3.5vw;
+  font-family: bold;
+  color: #000000;
+}
+.imgSectionTwo div h3 {
+  font-size: 2vw;
+  font-family: light;
+  color: #000000;
+}
+.imgSectionTwo div button {
+  background-color: #ED1B2E;
+  font-size: 1.25em;
+  font-family: bold;
+  color: #FFFFFF;
+  border: 0px;
+  border-radius: 3px;
+  padding: 0.5em 1.2em;
+  margin: 2em 0 0 0;
+}
+.imgSectionTwo div input::-webkit-outer-spin-button,
+.imgSectionTwo div input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.imgSectionTwo div input {
+  padding: 0.25em 1.8em 0.25em 0.3em;
+  margin: 0 1em 0 0;
+  font-size: 1.5em;
+  max-width: 30%;
+  border-radius: 3px;
+}
+.imgSectionTwo div ::-moz-placeholder {
+  padding: 0.2em 0.2em;
+}
+.imgSectionTwo div :-ms-input-placeholder {
+  padding: 0.2em 0.2em;
+}
+.imgSectionTwo div ::placeholder {
+  padding: 0.2em 0.2em;
+}
+.imgSectionTwo div p {
+  font-family: light;
+  font-size: 0.75em;
+  margin: 4em 0 0 0;
 }/*# sourceMappingURL=stylesheet.css.map */

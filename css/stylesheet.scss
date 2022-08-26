@@ -1,9 +1,14 @@
 @use "colors" as c;
 @use "fonts";
+@use "sections";
 
 * {
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: c.$lightGray;
 }
 
 nav {
@@ -27,4 +32,18 @@ nav {
     .redA {
         color: c.$redCrossRed;
     }
+}
+
+main {
+    max-width: 1350px;
+    margin: auto;
+    background-color: c.$White;
+}
+
+.imgSectionOne {
+    @include sections.imgSectionOne;
+}
+
+.imgSectionTwo {
+    @include sections.imgSectionTwo;
 }
