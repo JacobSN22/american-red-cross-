@@ -97,17 +97,19 @@ main {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         text-align: center;
+        padding: 0 5em;
     }
 
     div {
         display: flex;
         align-items: center;
         flex-direction: column;
+        gap: 2em;
     }
 
     img {
         margin-top: 3em;
         display: block;
-        width: 10vw;
+        max-width: 200px;
     }
 }
