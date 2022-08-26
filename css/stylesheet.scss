@@ -1,6 +1,7 @@
 @use "colors" as c;
 @use "fonts";
 @use "sections";
+@use "headline";
 
 * {
     margin: 0;
@@ -19,7 +20,7 @@ nav {
 
     img {
         width: 100px;
-        margin-right: 2em;
+        margin: 3em 2em 0 0;
     }
 
     a {
@@ -46,4 +47,67 @@ main {
 
 .imgSectionTwo {
     @include sections.imgSectionTwo;
+}
+
+.imgSectionThree {
+    @include sections.imgSectionOne;
+
+
+        padding: 0;
+        display: flex;
+        justify-content: flex-end;
+
+    div {
+        max-width: 40%;
+        padding-top: 6em;
+    }
+
+    p {
+        color: c.$White;
+        margin-top: 4em;
+        font-family: light;
+    }
+
+    input {
+        padding: 0.8em 0.3em;
+        margin: 0 0.5em 0 0;
+        font-size: 1em;
+        max-width: 20%;
+        border: 1px solid c.$mediumGray;
+        border-radius: 3px;
+        margin-top: 2em;
+    }
+
+    select {
+        padding: 0.7em 1em;
+        font-family: light;
+        font-size: 1em;
+        margin-right: 0.5em;
+        border-radius: 3px;
+        margin-top: 2em;
+    }
+}
+
+.sectionOne {
+    @include headline.headlines;
+
+    text-align: center;
+    
+    .gallrey {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: center;
+    }
+
+    div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    img {
+        margin-top: 3em;
+        display: block;
+        width: 10vw;
+    }
 }

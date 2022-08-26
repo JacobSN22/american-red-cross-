@@ -13,8 +13,7 @@
 
     div {
         position: absolute;
-        top: 30%;
-        left: 7%;
+        padding: 3em 2em;
         
     h2 {
         font-size: 3vw;
@@ -38,6 +37,12 @@
         padding: 0.6em 1.4em;
         margin: 2em 0 0 0;
     }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
 }
 }
 
@@ -50,6 +55,7 @@
     
         img {
             width: 100%;
+            margin-bottom: 0.5em;
         }
     
         div {
@@ -91,6 +97,7 @@
             margin: 0 1em 0 0;
             font-size: 1.5em;
             max-width: 30%;
+            border: 1px solid c.$mediumGray;
             border-radius: 3px;
         }
 

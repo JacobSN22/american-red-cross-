@@ -22,7 +22,7 @@ nav {
 }
 nav img {
   width: 100px;
-  margin-right: 2em;
+  margin: 3em 2em 0 0;
 }
 nav a {
   text-decoration: none;
@@ -50,8 +50,7 @@ main {
 }
 .imgSectionOne div {
   position: absolute;
-  top: 30%;
-  left: 7%;
+  padding: 3em 2em;
 }
 .imgSectionOne div h2 {
   font-size: 3vw;
@@ -73,6 +72,11 @@ main {
   padding: 0.6em 1.4em;
   margin: 2em 0 0 0;
 }
+.imgSectionOne div input::-webkit-outer-spin-button,
+.imgSectionOne div input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 .imgSectionTwo section {
   position: relative;
@@ -80,6 +84,7 @@ main {
 }
 .imgSectionTwo img {
   width: 100%;
+  margin-bottom: 0.5em;
 }
 .imgSectionTwo div {
   position: absolute;
@@ -116,6 +121,7 @@ main {
   margin: 0 1em 0 0;
   font-size: 1.5em;
   max-width: 30%;
+  border: 1px solid #9F9FA3;
   border-radius: 3px;
 }
 .imgSectionTwo div ::-moz-placeholder {
@@ -131,4 +137,114 @@ main {
   font-family: light;
   font-size: 0.75em;
   margin: 4em 0 0 0;
+}
+
+.imgSectionThree {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.imgSectionThree section {
+  position: relative;
+}
+.imgSectionThree img {
+  width: 100%;
+  margin-bottom: 0.5em;
+}
+.imgSectionThree div {
+  position: absolute;
+  padding: 3em 2em;
+}
+.imgSectionThree div h2 {
+  font-size: 3vw;
+  font-family: bold;
+  color: #FFFFFF;
+}
+.imgSectionThree div h3 {
+  font-size: 2vw;
+  font-family: light;
+  color: #FFFFFF;
+}
+.imgSectionThree div button {
+  background-color: #ED1B2E;
+  font-size: 1.25em;
+  font-family: bold;
+  color: #FFFFFF;
+  border: 0px;
+  border-radius: 3px;
+  padding: 0.6em 1.4em;
+  margin: 2em 0 0 0;
+}
+.imgSectionThree div input::-webkit-outer-spin-button,
+.imgSectionThree div input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.imgSectionThree div {
+  max-width: 40%;
+  padding-top: 6em;
+}
+.imgSectionThree p {
+  color: #FFFFFF;
+  margin-top: 4em;
+  font-family: light;
+}
+.imgSectionThree input {
+  padding: 0.8em 0.3em;
+  margin: 0 0.5em 0 0;
+  font-size: 1em;
+  max-width: 20%;
+  border: 1px solid #9F9FA3;
+  border-radius: 3px;
+  margin-top: 2em;
+}
+.imgSectionThree select {
+  padding: 0.7em 1em;
+  font-family: light;
+  font-size: 1em;
+  margin-right: 0.5em;
+  border-radius: 3px;
+  margin-top: 2em;
+}
+
+.sectionOne {
+  text-align: center;
+}
+.sectionOne h2 {
+  font-family: bold;
+  font-size: 3.25em;
+}
+.sectionOne h3 {
+  font-family: light;
+  font-size: 1.7em;
+  margin-bottom: 1.5em;
+  color: #6D6E70;
+}
+.sectionOne a {
+  text-decoration: none;
+  color: #56A0D3;
+  font-family: bold;
+  font-size: 1.5em;
+}
+.sectionOne div a {
+  color: #0091CD;
+  font-family: light;
+  padding-top: 3em;
+  font-size: 1.25em;
+  margin-bottom: 5em;
+}
+.sectionOne .gallrey {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  text-align: center;
+}
+.sectionOne div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.sectionOne img {
+  margin-top: 3em;
+  display: block;
+  width: 10vw;
 }/*# sourceMappingURL=stylesheet.css.map */

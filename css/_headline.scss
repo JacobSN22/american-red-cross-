@@ -1,0 +1,31 @@
+@use "fonts";
+@use "colors" as c;
+
+@mixin headlines {    
+    h2 {
+        font-family: bold;
+        font-size: 3.25em;
+    }
+    
+    h3 {
+        font-family: light;
+        font-size: 1.7em;
+        margin-bottom: 1.5em;
+        color: c.$coolGray;
+    }
+
+    a {
+        text-decoration: none;
+        color: c.$skyBlue;
+        font-family: bold;
+        font-size: 1.5em;
+    }
+
+    div a {
+        color: c.$ClassicBlue;
+        font-family: light;
+        padding-top: 3em;
+        font-size: 1.25em;
+        margin-bottom: 5em;
+    }
+}
